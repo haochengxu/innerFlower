@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+html
+  head
+    meta(charset="utf-8")
+    title 内在之花
+    style
+      include style.css
+    script(src="http://cdn.bootcss.com/echarts/3.2.3/echarts.min.js")
+
+  body
+    div(class="u-contain")
+      h1 内在之花测试报告
+      div(class="info")
+        span(class="u-quarter") 姓名：#{name}
+        span(class="u-quarter") 手机：#{phone}
+        span(class="u-quarter") 测评时间：#{time}
+        //- span(class="u-quarter") 测评地点：
+      div(class="begin") #{begin}
+      div(class="brainWave")
+        h2 测评过程中你的脑波随机截图：
+        img(src= path )
+        p
+          span 你的脑波表明：
+          br
+          | #{brainText}
+      div(class="testResult")
+        h2 内在之花测评结果
+        div(id="chart")
+        p
+          span 你的测评表明：
+          br
+          | #{itemText1}
+          br
+          | #{itemText2}
+          br
+          | #{itemText3}
+          br
+          | #{itemText4}
+      p
+       | #{endText}
+      script.
+            var users = '#{path}'
+      script(src='charts.js')

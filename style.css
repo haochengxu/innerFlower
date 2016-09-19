@@ -1,0 +1,69 @@
+body,html {
+  margin: 0;
+  background-color: #fafafa;
+  font-size: 15px;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+}
+p {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-weight: 300;
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+.u-contain {
+  background-color: #fafafa;
+  width: 980px;
+  margin: 0 auto;
+  padding: 40px 40px;
+}
+.info {
+  margin-top: 36px;
+}
+.info span {
+  padding-right: 20px;
+}
+.begin {
+  padding: 30px;
+  font-size: 15px;
+}
+.brainWave {
+  margin-top: 30px;
+}
+.brainWave img{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.brainWave h2{
+  font-weight: normal;
+  font-size: 20px;
+}
+.brainWave p{
+  padding-left: 230px;
+}
+.testResult {
+  clear: both;
+  overflow: auto;
+  margin-top: 30px;
+}
+.testResult img{
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+.testResult h2{
+  font-weight: normal;
+  font-size: 20px;
+}
+.testResult p{
+  padding-left: 430px;
+}
+#chart {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
