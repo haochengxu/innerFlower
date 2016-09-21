@@ -5,7 +5,7 @@ var config = JSON.parse(fs.readFileSync('./report.json', 'utf8'));
 var csv = require("fast-csv");
 var iconv = require('iconv-lite');
 var fs = require('fs');
-var pdf = require('html-pdf');
+
 var dataArray = []
 
 var glob = require("glob")
